@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import { Briefcase, LogOut, Trophy, Menu, X, Shield, Users } from 'lucide-react';
-import { useAuth } from './contexts/AuthContext';
-import { useAdmin } from './contexts/AdminContext';
+import { useAuth } from './contexts/authcontext';
+import { useAdmin } from './contexts/admincontext';
 import { ProtectedRoute } from './components/ProtectedRoute';
 import { AdminRoute } from './components/AdminRoute';
 import { Login } from './pages/Login';
