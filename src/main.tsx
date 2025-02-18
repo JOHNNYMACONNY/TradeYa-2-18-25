@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import App from './app'
 import './index.css'
-import { AuthProvider } from './contexts/AuthContext'
-import { AdminProvider } from './contexts/AdminContext'
+import { AuthProvider } from './contexts/authcontext'
+import { AdminProvider } from './contexts/admincontext'
 import { initializeCollections } from './lib/firebase'
 
 // Setup error tracking
